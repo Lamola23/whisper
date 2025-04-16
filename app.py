@@ -2,6 +2,7 @@ from fastapi import FastAPI, UploadFile, File
 import whisper
 import shutil
 import os
+print("🚀 FastAPI is starting up...")
 
 app = FastAPI()
 
